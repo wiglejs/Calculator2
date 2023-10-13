@@ -78,6 +78,7 @@
             this.Clear.TabIndex = 2;
             this.Clear.Text = "C";
             this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Calculate
             // 
@@ -135,6 +136,7 @@
             this.Sum.TabIndex = 11;
             this.Sum.Text = "+";
             this.Sum.UseVisualStyleBackColor = true;
+            this.Sum.Click += new System.EventHandler(this.Sum_Click);
             // 
             // Num6
             // 
@@ -174,6 +176,7 @@
             this.Mult.TabIndex = 15;
             this.Mult.Text = "X";
             this.Mult.UseVisualStyleBackColor = true;
+            this.Mult.Click += new System.EventHandler(this.Mult_Click);
             // 
             // Num3
             // 
@@ -222,6 +225,7 @@
             this.Sub.TabIndex = 17;
             this.Sub.Text = "-";
             this.Sub.UseVisualStyleBackColor = true;
+            this.Sub.Click += new System.EventHandler(this.Sub_Click);
             // 
             // Devi
             // 
@@ -231,6 +235,7 @@
             this.Devi.TabIndex = 18;
             this.Devi.Text = "/";
             this.Devi.UseVisualStyleBackColor = true;
+            this.Devi.Click += new System.EventHandler(this.Devi_Click);
             // 
             // Output
             // 

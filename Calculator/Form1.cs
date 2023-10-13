@@ -75,5 +75,30 @@ namespace Calculator
                 Output.Text += ".";
             }
         }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            Output.Text = "";
+        }
+
+        private void Sum_Click(object sender, EventArgs e)
+        {
+            Output.Text += "+";
+        }
+
+        private void Sub_Click(object sender, EventArgs e)
+        {
+            Output.Text += "-";
+        }
+
+        private void Mult_Click(object sender, EventArgs e)
+        {
+            Output.Text += "X";
+        }
+
+        private void Devi_Click(object sender, EventArgs e)
+        {
+            Output.Text += "/";
+        }
     }
 }
