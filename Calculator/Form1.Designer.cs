@@ -88,6 +88,7 @@
             this.Calculate.TabIndex = 3;
             this.Calculate.Text = "=";
             this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Pow
             // 
